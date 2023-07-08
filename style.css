@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 99.9%;
+    height: 50px;
+    border: 1px solid red;
+}
+
+#logo{
+    float: left;
+    width: 140px;
+    height: 40px;
+    margin: 2px;
+    margin-left: 40px;
+}
+
+#Search{
+    float: left;
+    margin: 8px;
+    margin-left: 200px;
+    width: 480px;
+    height: 32px;
+    border: 1px solid;
+    padding-left: 10px;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+
+}
+.search-mark{
+    float: left;
+    width: 30px;
+    margin-top: 7.9px;
+    height: 32px;
+    border: 1px solid;
+    margin-left: -8px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+@media (max-width: 768px) {
+  #logo {
+      width: 100px;
+      height: 28px;
+      margin: 8px;
+  }
+
+  #Search {
+      width: calc(100% - 140px);
+      margin-left: 100px;
+  }
+
+
+
+  .search-mark {
+      display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
