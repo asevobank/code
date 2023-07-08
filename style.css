@@ -1,47 +1,53 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-header{
-    width: 99.9%;
-    height: 50px;
-    border: 1px solid red;
+header {
+  width: 100%;
+  height: 50px;
+  border: 1px solid red;
 }
 
-#logo{
-    float: left;
-    width: 140px;
-    height: 40px;
-    margin: 2px;
-    margin-left: 40px;
+#logo {
+  float: left;
+  width: 140px;
+  height: 40px;
+  margin: 2px;
+  margin-left: 40px;
 }
 
-#Search{
-    float: left;
-    margin: 8px;
-    margin-left: 200px;
-    width: 480px;
-    height: 32px;
-    border: 1px solid;
-    padding-left: 10px;
-    border-radius: 10px 0px 0px 10px;
-    outline: none;
-
-}
-.search-mark{
-    float: left;
-    width: 30px;
-    margin-top: 7.9px;
-    height: 32px;
-    border: 1px solid;
-    margin-left: -8px;
-    border-radius: 0px 10px 10px 0px;
+#Search {
+  float: left;
+  margin: 8px;
+  margin-left: 200px;
+  width: 480px;
+  height: 32px;
+  border: 1px solid;
+  padding-left: 10px;
+  border-radius: 10px 0px 0px 10px;
+  outline: none;
 }
 
+.search-mark {
+  float: left;
+  width: 30px;
+  margin-top: 7.9px;
+  height: 32px;
+  border: 1px solid;
+  margin-left: -8px;
+  border-radius: 0px 10px 10px 0px;
+}
 
+.sign {
+  float: right;
+  margin: 4px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: wheat;
+}
 
 @media (max-width: 768px) {
   #logo {
@@ -51,42 +57,19 @@ header{
   }
 
   #Search {
-      width: calc(100% - 140px);
+      width: 200px;
       margin-left: 100px;
       margin-top: -35px;
   }
-
-
 
   .search-mark {
       display: block;
       margin-top: -35px;
   }
+
+  .sign {
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
