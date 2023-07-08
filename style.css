@@ -49,6 +49,27 @@ header {
   background: wheat;
 }
 
+.list-style{
+  text-align: center;
+  font-size: 25px;
+  border-radius: 40px 40px 40px 40px;
+  color: black;
+  height: 25px;
+  cursor: pointer;
+}
+
+.opthion{
+  float: left;
+  width: 7%;
+  height: 510px;
+
+}
+
+
+
+
+
+
 
 
 
@@ -59,27 +80,36 @@ header {
 
 @media (max-width: 768px) {
   #logo {
-      width: 100px;
-      height: 28px;
-      margin: 8px;
+    width: 100px;
+    height: 28px;
+    margin: 8px;
   }
 
   #Search {
-      width: 200px;
-      margin-left: 100px;
-      margin-top: -35px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: -35px;
   }
 
   .search-mark {
-      display: block;
-      margin-top: -35px;
+    display: block;
+    margin-top: -35px;
   }
 
   .sign {
-    margin-top: -32px;
-      width: 30px;
-      height: 30px;
-      border-radius: 40px;
-      margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+  }
+
+  .list-style {
+    font-size: 18px;
+    height: 18px;
+  }
+
+  .opthion {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
   }
 }
