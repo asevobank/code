@@ -53,12 +53,14 @@ header{
   #Search {
       width: calc(100% - 140px);
       margin-left: 100px;
+      margin-top: -35px;
   }
 
 
 
   .search-mark {
       display: block;
+      margin-top: -35px;
   }
 }
 
