@@ -49,6 +49,14 @@ header {
   background: wheat;
 }
 
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   #logo {
       width: 100px;
@@ -68,8 +76,9 @@ header {
   }
 
   .sign {
-      width: 20px;
-      height: 20px;
-      border-radius: 10px;
+    margin-top: -32px;
+      width: 30px;
+      height: 30px;
+      border-radius: 40px;
   }
 }
