@@ -80,5 +80,6 @@ header {
       width: 30px;
       height: 30px;
       border-radius: 40px;
+      margin-right: 8px;
   }
 }
